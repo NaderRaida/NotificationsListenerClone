@@ -13,7 +13,7 @@ import android.util.Log
 
 
 /**
- * Notification listening service. Intercepts notifications if permission is given to do so.
+ * Notification listening service. Intercepts notifications if permission is given to do it so.
  */
 class NotificationListener : NotificationListenerService() {
     override fun onNotificationPosted(sbn: StatusBarNotification) {
